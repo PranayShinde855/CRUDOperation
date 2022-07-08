@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[StudentsDetails](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Address] [nvarchar](50) NOT NULL,
+	[MobileNumber] [nvarchar](10) NOT NULL,
+	[Email] [nvarchar](50) NOT NULL,
+	[password] [varchar](20) NOT NULL
+) ON [PRIMARY]
+GO
